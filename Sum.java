@@ -1,3 +1,5 @@
+// Sum of first n natural numbers using recursion
+
 public class Sum {
     static int sum(int n){
         if(n == 0){

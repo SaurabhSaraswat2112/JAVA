@@ -1,3 +1,5 @@
+// Swap two numbers without using a temporary variable
+
 public class SwapNum1 {
     public static void main(String[] args){
         int a = 5;
