@@ -1,8 +1,7 @@
 public class MergeArray {
     static void mergeArray(int arr1[], int arr2[], int[] mergeArray){
-        int n1 = arr1.length;
-        int n2 = arr2.length;
-        int n3 = n1+n2;    // size of merge array
+        
+            // size of merge array
 
         int k = 0;
 
