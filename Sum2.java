@@ -1,3 +1,5 @@
+// Sum of digits of a number
+
 import java.util.Scanner;
 
 public class Sum2 {
