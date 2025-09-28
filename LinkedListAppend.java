@@ -1,7 +1,4 @@
-// Append the element to the linked list
-
 public class LinkedListAppend {
-
     static class Node {
         int data;
         Node next;
@@ -15,24 +12,21 @@ public class LinkedListAppend {
     static class LinkedList {
         Node head;
 
-        // Function to append a new node at the end of the linked list
-        public void append(int new_data) {
-            Node new_node = new Node(new_data);
-
+        // Method to append a new node at the end of the list
+        public void append(int newData) {
+            Node newNode = new Node(newData);
             if (head == null) {
-                head = new_node;
+                head = newNode;
                 return;
             }
-
             Node last = head;
             while (last.next != null) {
                 last = last.next;
             }
-
-            last.next = new_node;
+            last.next = newNode;
         }
 
-        // Function to print the linked list
+        // Method to print the linked list
         public void printList() {
             Node current = head;
             while (current != null) {
@@ -45,11 +39,9 @@ public class LinkedListAppend {
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-
-        list.append(10);
-        list.append(20);
-        list.append(30);
-
-        list.printList(); // Output: 10 -> 20 -> 30 -> null
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        list.printList(); // Output: 1 -> 2 -> 3 -> null
     }
 }
