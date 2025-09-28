@@ -1,4 +1,4 @@
-public class LinkedListAppend {
+public class LinkedListAppend{
     static class Node {
         int data;
         Node next;
